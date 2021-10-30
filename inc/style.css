@@ -1,0 +1,39 @@
+.menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.menu li {
+    display: inline-block;
+}
+.menu ul li a {
+    padding: 10px;
+    display: block;
+}
+nav.mynavbar a, .menu a {
+    color: #333;
+    text-decoration: none;
+}
+.header, .well {
+    background: #eee;
+    border: 1px solid #ddd;
+    padding: 7px;
+    margin-bottom: 15px;
+}
+.panel-wrap {
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+.pane-heading {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    background: #eee;
+}
+.panel-body {
+    padding: 10px;
+}
+.panel-body table tr {border-top: 1px solid #ddd;}
+.panel-body table tr:nth-child(2n+1) {
+    background: #eee;
+}
+.panel-body table td, .panel-body table th {padding:5px;}
